@@ -24,6 +24,6 @@ Some sample questions:
   * Install and run each other's packages using the documentation provided. Spend at most 15 minutes doing this. 
   * Provide the other group with one thing you liked about their package and one suggestion/thing you found confusing.
 
-## Closing Slides: [link](https://docs.google.com/presentation/d/1CNOsF-9o8TkEQIhlc9-uErNdus3u8dFSRsbvHglzO-c/edit?usp=sharing)
+## Closing Slides: [link](https://docs.google.com/presentation/d/1U_Y9t19Cj9vMT5uXK_Y9B2NsfYtZqSzSCBal8RQoURk/edit?usp=sharing)
 
   
