@@ -1,12 +1,17 @@
 ![Astronomy Documentation](https://pbs.twimg.com/media/EUJmsaXUcAEfmTT?format=jpg&name=medium)
 
 # Documentation
-Documentation for code comes in many forms. Some includ
+Documentation for code comes in many forms. Some include
  * In-line comments in the code (`# makes comments in python`)
  * Docstrings: chunks of comments when a function or class is defined
  * README files: text files that come with the code
  * Documentation pages: webpages of documentation
 
+# Demo Goal
+Here, we'll discuss how to construct a docstring for a given function,
+and then how we can an automated tool
+([sphinx](https://www.sphinx-doc.org/en/master/)) to automatically
+compile all of the docstrings in a given repo into a webpage.
 
 ## Jason's hot takes on documentation
  * Perfect is the enemy of good.
@@ -17,7 +22,7 @@ Documentation for code comes in many forms. Some includ
         * Optimal: a series of commands I can blindly follow with copy/paste
         * Optimal: document expected output with units
     3. how to cite your code
- * The third most important aspect is to document your code's API (application programming interface). An API species what are the inputs to your code and what are the outputs.      
+ * The third most important aspect is to document your code's API (application programming interface). An API specifies what are the inputs to your code and what are the outputs.      
     * Docstrings are one way to document your API
  * In-line comments are the least important, but they have their place (e.g., explaining confusing parts of the code)
 
@@ -105,7 +110,7 @@ the following lines:
 Otherwise, copy and paste these lines to the top of `conf.py` and
 uncomment them. 
 
-4. Change the argument of `os.path.abspath('.')` to point to directory where `correlate.py` and `__ini__.py` live. In this example that would be `../correlate/` (
+4. Change the argument of `os.path.abspath('.')` to point to directory where `correlate.py` and `__init__.py` live. In this example that would be `../correlate/` (
 one level up in the directory struture from `conf.py` and in a folder called `correlate`).
 ```
 import os
