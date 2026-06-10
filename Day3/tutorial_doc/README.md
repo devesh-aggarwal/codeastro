@@ -12,9 +12,9 @@ Documentation for code comes in many forms. Some includ
  * Perfect is the enemy of good.
  * The three most important aspects of your code to document (if you document nothing else): 
     1. how to setup/install your code
-        * Optimal: a series of commands I can briendly follow with copy/paste
+        * Optimal: a series of commands I can blindly follow with copy/paste
     2. how to run the code for the most standard use case
-        * Optimal: a series of commands I can briendly follow with copy/paste
+        * Optimal: a series of commands I can blindly follow with copy/paste
         * Optimal: document expected output with units
     3. how to cite your code
  * The third most important aspect is to document your code's API (application programming interface). An API species what are the inputs to your code and what are the outputs.      
