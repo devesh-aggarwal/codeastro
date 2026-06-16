@@ -27,5 +27,6 @@ Optional Activities:
  * [Colabotary link for numpy/pandas lesson](https://colab.research.google.com/github/semaphoreP/codeastro/blob/main/Day1/numpy_pandas.ipynb)
  * [Colabotary link for astropy lesson](https://colab.research.google.com/github/semaphoreP/codeastro/blob/main/Day1/astropy.ipynb)
  * [Colabotary link for matplotlib lesson](https://colab.research.google.com/github/semaphoreP/codeastro/blob/main/Day1/activity_mpl/activity_mpl.ipynb)
-  * [Colaboratory link for jax.ipynb](https://colab.research.google.com/drive/1wshW6THrenwIYLr6Q5uoJQeY9oyRLRZx?usp=sharing)
+ * [Colaboratory link for jax.ipynb](https://colab.research.google.com/drive/1wshW6THrenwIYLr6Q5uoJQeY9oyRLRZx?usp=sharing)
+ * [Colabotary link for vibe coding lesson](https://colab.research.google.com/github/semaphoreP/codeastro/blob/main/Day1/vibe_coding.ipynb)
 
