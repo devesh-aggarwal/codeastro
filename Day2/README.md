@@ -14,7 +14,7 @@ Example:  We’ll continue working on the core functionality we sketched out yes
 
 ## Useful Links
 
-  * [Day 2 Slides](https://docs.google.com/presentation/d/1e3szhRAfjZqPylhg0sKhXRQ3VX9WeSwXNChd_dYh-bg/edit?usp=sharing)
+  * [Day 2 Slides](https://docs.google.com/presentation/d/1VqnrglJcAgn96oPdzeFeNJsXECDhKE9k458u64-RcQ4/edit?usp=sharing)
   * Mechanics of Git: [.PDF](https://drive.google.com/file/d/1avpAPCn1Ps1oQ_9UvU0UKaBGPp02H7if/view?usp=sharing), [.PPTX](https://docs.google.com/presentation/d/1InaW7VflQMh6goLAIOHPKrPnPdJ1atfN/edit?usp=sharing&ouid=108304133850943478559&rtpof=true&sd=true)
     * 1 person should be the facilitator: keep track of time, stay on track, and keep track of progress
     * 1 person should be the recorder: writes down the solution (suggestion: use powerpoint, keynote, or google slides to draw out the git commit tree)
