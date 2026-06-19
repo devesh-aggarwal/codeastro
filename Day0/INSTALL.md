@@ -68,7 +68,7 @@ Once you've installed all of the requirements, clone the `orbitize!` repository 
     cd orbitize
     pip install -r requirements.txt
     pip install -e . --upgrade
-    pytest --mode codeastro
+    pytest --mode=codeastro
 
 You may get some warnings, but you should see 0 errors and a secret code at the end of the output. We will ask you for the secret code to check your python installation is all working. 
 
