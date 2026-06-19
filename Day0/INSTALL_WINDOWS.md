@@ -45,11 +45,10 @@ XMing (the following section) may not be needed for windows 11 from build 22000 
 Your build can be checked by typing `winver` in a cmd/powershell (not WSL shell) and pressing enter with the build number showing on the second line. If you are running Windows 11 build 22000 or higher, you may be able to bypass the need for XMing by following these instructions:
 https://docs.microsoft.com/en-us/windows/wsl/tutorials/gui-apps.
 
-### Install xming
+### Install xming (optional for many)
+The following insturctions are different depending on whether you are using WSL1 or WSL2. If you are using WSL2 and have Windows 11 with build 22000 or higher, you don't need to do any of the following. At this point, you probably are using WSL2 with Windows 11 build 22000 or higher, but if you can't get any GUIs working, you should follow the instructions below.
 
-Normally, WSL is just a command prompt, so it does not have a GUI interface. If you try to display matplotlib plots through the command line, it will not work, because WSL does not directly talk with your Windows desktop normally. However, you can make this communication happen with xming, which can be installed from here: https://sourceforge.net/projects/xming/.
-
-The following insturctions are different depending on whether you are using WSL1 or WSL2. If you are using WSL2 and have Windows 11 with build 22000 or higher, you don't need to do any of the following. 
+If you try to display matplotlib plots through the command line, and it doesn't work, it is because WSL does not directly talk with your Windows desktop normally. However, you can make this communication happen with xming, which can be installed from here: https://sourceforge.net/projects/xming/.
 
 #### xming for WSL1
 For WSL1, after you download and install xming, click on it to run. It runs passively in the background, so you should not expect anything to happen. You should just see the xming icon appear in the Windows taskbar. This means the connection is active. Then, add the following line to your .bashrc file in WSL so that WSL knows to forward displays to xming. 
