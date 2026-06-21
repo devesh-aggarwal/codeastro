@@ -36,7 +36,7 @@ Each of these goals will be covered on a different day of the workshop, so it’
 
 ### Timeline & Time Expectations:
 
-You should aim to spend 10 hours (~3.3 hours per day) working on the project. Days 1 and 2 are the main time to develop the core functionality of your package. Writing docs/tests/packaging will keep you busy on Day 4 (we don't nomianlly have anything planned on Day 3).
+You should aim to spend 10 hours (~3.3 hours per day) working on the project. Days 1 and 2 are the main time to develop the core functionality of your package. Writing docs/tests/packaging will keep you busy on Day 4 (we don't nominally have anything planned on Day 3).
 
 Here’s a more detailed suggested timeline:
 
@@ -46,10 +46,34 @@ Example: we’re working on a package that plots the most likely galactic orbits
 **Day 2**: get a feature working and committed to Github. You'll be busy later this week doing documentation and other scaffolding, so try to finish something you can demo today.
 Example: We’ll continue working on the core functionality we sketched out yesterday so that we can produce a plot of likely galactic orbits given a Gaia star ID.
  
-**Day 3**: Nothing is scheduled for today! 
+**Day 3**: Nothing is scheduled for today! Plan your own thing.
 
 **Day 4**: The final stretch! Document your code, add tests, release it, and get ready to present tomorrow!
 Example: we’ll write docstrings for a couple core classes and functions (all we have time for) and add a tutorial to our README. We’ll write unit tests that evaluate the performance of key functions (e.g. if a user sets a degree range keyword, does the Gaia query work appropriately?), and end-to-end tests that make sure the whole package is working. We'll put our code on PyPI and try pip installing it on each of our machines to work through installation problems.
+
+We recommend that you make your own 10-hour project timeline. Yours might look a bit different once you factor in the [optional lessons](https://semaphorep.github.io/codeastro/details.html) that you might want to attend in the afternoons. Discuss this with your groupmates. For instance:
+
+| Task | Time Estimate |
+|---|---|
+| Decide on the purpose of the package | ~30 mins (Day 1) |
+| Brainstorming + zeroing in on a demonstrable feature | ~30 mins (Day 1) |
+| Set up a project repo + writing one central function | ~2 hours (Day 1) |
+| Fix bugs, get feature working | ~1 hour + attend optional lessons (Day 2) |
+| Document code | ~2 hours (Day 3) |
+| Try pip packaging | ~2 hours (Day 3) |
+| Write testing modules | ~1 hour (Day 4) |
+| Fix bugs, add extra feature, polish documentation | ~1 hour + attend optional lessons (Day 4) |
+
+
+### Project Topics:
+Many of you came to this workshop with ideas for open-source projects that are relevant to your research. If you’re in that category, please use this project as an opportunity to make something useful for your research! 
+
+Many of you don’t have research experience, and/or did not come to this workshop with an idea. That’s completely fine too! If you’re struggling to think of an idea for a project, here’s a list of ideas to give you some inspiration:
+
+- write an educational visualization of a physical process (e.g. check out [Show Me the Orbit](https://github.com/sblunt/orbitize/blob/main/docs/tutorials/show-me-the-orbit.ipynb))
+- write something that randomly generates a joke or song lyrics given the name of a user 
+- write a quadratic equation solver that prints out the steps for solving by hand
+- write a image processing tool that does one main task (e.g., make color images from astronomical data taken at different wavelengths, a tool that automatically looks for stars in an image). 
 
 ### Examples from Past Years:
 
@@ -75,14 +99,3 @@ To do this project, you’ll be working with others to program. This is likely a
   * Use Discord/Zoom/Skype to share screens if working together virtually
 * Code individually when there are separate tasks to be done
   * Use git branches (which we will cover on Day 2) to prevent overriding each others’ work
-
-### Project Topics:
-Many of you came to this workshop with ideas for open-source projects that are relevant to your research. If you’re in that category, please use this project as an opportunity to make something useful for your research! 
-
-Many of you don’t have research experience, and/or did not come to this workshop with an idea. That’s completely fine too! If you’re struggling to think of an idea for a project, here’s a list of ideas to give you some inspiration:
-
-- write an educational visualization of a physical process (e.g. check out [Show Me the Orbit](https://github.com/sblunt/orbitize/blob/main/docs/tutorials/show-me-the-orbit.ipynb))
-- write something that randomly generates a joke or song lyrics given the name of a user 
-- write a quadratic equation solver that prints out the steps for solving by hand
-- write a image processing tool that does one main task (e.g., make color images from astronomical data taken at different wavelengths, a tool that automatically looks for stars in an image). 
-
