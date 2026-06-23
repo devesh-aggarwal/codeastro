@@ -1,23 +1,22 @@
 ![Astronomy Documentation](https://pbs.twimg.com/media/EUJmsaXUcAEfmTT?format=jpg&name=medium)
 
 # Documentation
-Documentation for code comes in many forms. Some includ
+Documentation for code comes in many forms. Some include
  * In-line comments in the code (`# makes comments in python`)
  * Docstrings: chunks of comments when a function or class is defined
  * README files: text files that come with the code
  * Documentation pages: webpages of documentation
 
-
 ## Jason's hot takes on documentation
  * Perfect is the enemy of good.
  * The three most important aspects of your code to document (if you document nothing else): 
     1. how to setup/install your code
-        * Optimal: a series of commands I can briendly follow with copy/paste
+        * Optimal: a series of commands I can blindly follow with copy/paste
     2. how to run the code for the most standard use case
-        * Optimal: a series of commands I can briendly follow with copy/paste
+        * Optimal: a series of commands I can blindly follow with copy/paste
         * Optimal: document expected output with units
     3. how to cite your code
- * The third most important aspect is to document your code's API (application programming interface). An API species what are the inputs to your code and what are the outputs.      
+ * The third most important aspect is to document your code's API (application programming interface). An API specifies what are the inputs to your code and what are the outputs.      
     * Docstrings are one way to document your API
  * In-line comments are the least important, but they have their place (e.g., explaining confusing parts of the code)
 
@@ -50,21 +49,9 @@ document code that can be easily parsed by automated
 documentation tools, like
 [sphinx](https://www.sphinx-doc.org/en/master/). 
 
-### Python Type Hinting
+# Demo: Sphinx website quickstart guide
 
-By default in Python, you can pass any kind of object into any argument. There is no syntax prohibiting it (although your code might crash!). However, we frequently actually know exactly what is the type of a given input or output. A small formatting technique to make your functions more easy to understand and also assist IDE/dsebugging tools is to add "Type Hinting" to your functions. The `cross_corr()` function can be type hinted when defining the function signature:
-
-```
-import numpy as np
-
-def cross_corr(a: np.array, b: np.array) -> np.array:
-```
-
-Note that this does not change the behavior of the function. The function will not check that `a` and `b` are actually arrays that get passed in, and it will not guarantee the output will return an array (you still have to do those type checks yourself). However, it will make it easier for IDEs and debuggers to identify bugs in your code before you run it and provide hints. 
-
-# Sphinx website quickstart guide
-
-1. In this example, we will create a documentation website for our example package `correlate`, which is located at `Day3/tutorial_doc/` in
+1. In this demo, we will create a documentation website for our example package `correlate`, which is located at `Day3/tutorial_doc/` in
 the codeastro repository. The correlate package as a single module (`correlate.py`) with a few functions. This demo is meant to be similar to how you would set up the doc for your project. Start by using `cd` to move into the
 `tutorial_doc` directory.
 
@@ -105,7 +92,7 @@ the following lines:
 Otherwise, copy and paste these lines to the top of `conf.py` and
 uncomment them. 
 
-4. Change the argument of `os.path.abspath('.')` to point to directory where `correlate.py` and `__ini__.py` live. In this example that would be `../correlate/` (
+4. Change the argument of `os.path.abspath('.')` to point to directory where `correlate.py` and `__init__.py` live. In this example that would be `../correlate/` (
 one level up in the directory struture from `conf.py` and in a folder called `correlate`).
 ```
 import os
@@ -246,6 +233,18 @@ We can make a link to the correlation page by referring to its label
 * :ref:`search`
 
  ```
+
+## Bonus: Python Type Hinting
+
+By default in Python, you can pass any kind of object into any argument. There is no syntax prohibiting it (although your code might crash!). However, we frequently actually know exactly what is the type of a given input or output. A small formatting technique to make your functions more easy to understand and also assist IDE/dsebugging tools is to add "Type Hinting" to your functions. The `cross_corr()` function can be type hinted when defining the function signature:
+
+```
+import numpy as np
+
+def cross_corr(a: np.array, b: np.array) -> np.array:
+```
+
+Note that this does not change the behavior of the function. The function will not check that `a` and `b` are actually arrays that get passed in, and it will not guarantee the output will return an array (you still have to do those type checks yourself). However, it will make it easier for IDEs and debuggers to identify bugs in your code before you run it and provide hints. 
 
 # Activity: Building Sphinx Documentation For Your Repository
 1. Document at least one function in your package with a docstring. 

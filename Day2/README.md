@@ -8,6 +8,7 @@ Example:  We’ll continue working on the core functionality we sketched out yes
  
 ## Learning Objectives
 
+  * Define "git flow," and give examples of the advantages of git flow
   * Reason about git to understand how to use it to version control your code
   * Interactively debug code using breakpoints, and not rely on print statements
   * Employ best practices for using numpy, pandas, matplotlib & astropy in open-source packages, and explain the purposes of each of these packages.
@@ -15,6 +16,7 @@ Example:  We’ll continue working on the core functionality we sketched out yes
 ## Useful Links
 
   * [Day 2 Slides](https://docs.google.com/presentation/d/1VqnrglJcAgn96oPdzeFeNJsXECDhKE9k458u64-RcQ4/edit?usp=sharing)
+  * [Gitflow Slides](https://docs.google.com/presentation/d/1112QF3_MWFn8DoxWtD0-ZS7a-yEwsMnOMX809tt4MCE/edit?usp=sharing)
   * Mechanics of Git: [.PDF](https://drive.google.com/file/d/1avpAPCn1Ps1oQ_9UvU0UKaBGPp02H7if/view?usp=sharing), [.PPTX](https://docs.google.com/presentation/d/1InaW7VflQMh6goLAIOHPKrPnPdJ1atfN/edit?usp=sharing&ouid=108304133850943478559&rtpof=true&sd=true)
     * 1 person should be the facilitator: keep track of time, stay on track, and keep track of progress
     * 1 person should be the recorder: writes down the solution (suggestion: use powerpoint, keynote, or google slides to draw out the git commit tree)
