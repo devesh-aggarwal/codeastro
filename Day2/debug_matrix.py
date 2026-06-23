@@ -36,14 +36,14 @@ def generate_rgb_pixel(x, y):
 dim = 105
 dim2 = 35
 # for each row, we will draw numbers from increasingly large pools of random numbers
-new_image = np.zeros([dim, dim2])
+new_image = np.zeros([dim, dim2, 3])
 
 # loop through all pixels to generate random values for each pixel
 for i in range(dim):
     for j in range(dim2):
         # generate new RGB pixel
         pixel_rgb = generate_rgb_pixel(j, i)
-        new_image[j, i] = pixel_rgb
+        new_image[i, j] = pixel_rgb
 
 
 # plot the resulting image. 
