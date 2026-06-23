@@ -178,11 +178,12 @@ These steps are for when you've just finished downloading WSL and opened up your
     cd codeastro
     pip install -r requirements.txt
     ```
-10. Get the `orbitize` git repo and test it.
+10. Get the `orbitize` git repo, install it, and test it.
     ```
     cd ..
     git clone https://github.com/sblunt/orbitize.git
     cd orbitize
+    pip install -e . --upgrade
     pytest --mode codeastro
     ```
     You may get some warnings, but you should see 0 errors and a secret code if your setup is working.

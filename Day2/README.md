@@ -7,7 +7,7 @@ Get a feature working and committed to Github. You'll be busy later this week do
 Example:  We’ll continue working on the core functionality we sketched out yesterday so that we can produce a plot of likely galactic orbits given a Gaia star ID.
  
 ## Learning Objectives
-
+  
   * Define "git flow," and give examples of the advantages of git flow
   * Reason about git to understand how to use it to version control your code
   * Interactively debug code using breakpoints, and not rely on print statements
@@ -25,4 +25,6 @@ Example:  We’ll continue working on the core functionality we sketched out yes
 
 Optional Activities:
   * [Colaboratory link for parallelism.ipynb](https://colab.research.google.com/github/semaphoreP/codeastro/blob/main/Day2/parallelism/parallelism.ipynb)
+  * [Colaboratory link for jax.ipynb](https://colab.research.google.com/drive/1wshW6THrenwIYLr6Q5uoJQeY9oyRLRZx?usp=sharing)
+
 

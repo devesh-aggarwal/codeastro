@@ -19,13 +19,11 @@ Example: we’re working on a package that plots the most likely galactic orbits
  * Introduction to Git:
     * [Slides: git basics](https://github.com/semaphoreP/codeastro/blob/main/Day1/intro_to_git.pptx)
     * [git basics demo](https://github.com/semaphoreP/codeastro/blob/main/Day1/git_intro/git_demo.md)
-    * [Slides: Gitflow](https://github.com/semaphoreP/codeastro/blob/main/Day1/gitflow.pptx)
  * [Closing Slides](https://docs.google.com/presentation/d/1xvfQz16huDGM4wTYB0Yb4VvYWqAqNjLJm4eRRAS6ycM/edit?usp=sharing)
 
 Optional Activities:
  * [Colabotary link for numpy/pandas lesson](https://colab.research.google.com/github/semaphoreP/codeastro/blob/main/Day1/numpy_pandas.ipynb)
  * [Colabotary link for astropy lesson](https://colab.research.google.com/github/semaphoreP/codeastro/blob/main/Day1/astropy.ipynb)
  * [Colabotary link for matplotlib lesson](https://colab.research.google.com/github/semaphoreP/codeastro/blob/main/Day1/activity_mpl/activity_mpl.ipynb)
- * [Colaboratory link for jax.ipynb](https://colab.research.google.com/drive/1wshW6THrenwIYLr6Q5uoJQeY9oyRLRZx?usp=sharing)
  * [Colabotary link for vibe coding lesson](https://colab.research.google.com/github/semaphoreP/codeastro/blob/main/Day1/vibe_coding.ipynb)
 
