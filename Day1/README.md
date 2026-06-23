@@ -11,6 +11,7 @@ Example: we’re working on a package that plots the most likely galactic orbits
   * Identify which development environment is most appropriate for a programming task.
   * Decide when and how to design software using functional and object oriented paradigms.
   * Use git to contribute version-controlled code
+  * Define "git flow," and give examples of the advantages of git flow
 
 ## Useful Links
 
