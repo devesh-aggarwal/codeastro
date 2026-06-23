@@ -80,5 +80,27 @@ print('1 image/1 process: {:.2f} seconds'.format(single_time))
 # as you increase the number of processes you use?
 # we recommend you use multiprocessing pool for this task
 if __name__ == "__main__":
-    print("TODO")
-    pass
+    start_2 = time.time()
+
+    pool = mp.Pool(processes=13)
+
+    pool_jobs = []
+    for i in range(25):
+        with fits.open(fileformat.format(ny, nx, i)) as hdulist:
+            data = hdulist[0].data
+            task = pool.apply_async(process_image, (data,))
+
+        pool_jobs.append(task)
+        print("Created job {0}".format(i))
+
+    for i, task in enumerate(pool_jobs):
+        result = task.get()
+        print("Job result {0}. First value is {1}".format(i, result.ravel()[0]))
+
+    # Close the pool and wait for the work to finish
+    pool.close()
+    pool.join()
+
+    single_time_2 = time.time() - start_2
+    print('25 image/13 process: {:.2f} seconds'.format(single_time_2))
+
