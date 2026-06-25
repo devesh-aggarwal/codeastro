@@ -20,4 +20,5 @@ Example: We’ll write docstrings for a couple core classes and functions (all w
   * [Testing Slides](https://docs.google.com/presentation/d/1mObfDklqtAzIg42HmkfG_DvEYoZ5qH4L32o9BYBbWs0/edit?usp=sharing)
   * [Testing Think-pair Activity](https://colab.research.google.com/drive/1y_Zq81xzOJu3Zz7Kvv_S_4mUScX_yg7w?usp=sharing)
   * [Anti-Discriminatory Practices](https://docs.google.com/presentation/d/1fGvtmq-9fqOYtrIw3V5Y_TLaz1monfhuALnoW9eqUaM/edit?usp=sharing)
+  * [Preparing for Future Observatories Slides](https://docs.google.com/presentation/d/1DKaNSkKJA6cQ7hwTwDVwjXhMSXxTz6db2tBNeJngISk/edit?usp=sharing)
   * [Colaboratory Link for analyze_profiler.ipynb](https://colab.research.google.com/github/semaphoreP/codeastro/blob/main/Day4/analyze_profiler.ipynb)
